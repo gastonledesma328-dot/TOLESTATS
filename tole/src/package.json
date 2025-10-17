@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=3000 next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "netlify": "netlify dev"
   },
   "dependencies": {
     "@elevenlabs/react": "latest",
@@ -74,4 +75,5 @@
     "tw-animate-css": "^1.2.9",
     "typescript": "^5"
   }
+
 }
